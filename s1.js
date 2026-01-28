@@ -17,6 +17,10 @@ const startBot = (filename) => {
 };
 
 const runBots = async () => {
+
+  startBot("alt0.js");
+
+  await delay(5000);
   
   startBot("alt1.js");
 
@@ -77,5 +81,6 @@ const runBots = async () => {
   startBot("alt15.js");
 
 };
+
 
 runBots();
